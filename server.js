@@ -4,7 +4,7 @@ const multer = require('multer');
 const path = require('path');
 
 const app = express();
-app.use(cors({ origin: 'https://localhost:4200' }));
+app.use(cors());
 
 app.use(express.static('images'));
 
